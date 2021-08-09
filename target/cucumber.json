@@ -1,0 +1,192 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Successfully Amazon product search",
+        "description": "",
+        "id": "search-functionality-of-amazon;successfully-amazon-product-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8701472800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefHomeePagee.open_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1645613200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open amazon home page and customer is on home page",
+            "match": {
+              "location": "StepDefHomeePagee.open_amazon_home_page_and_customer_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 384696300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter a product name Phone",
+            "match": {
+              "location": "StepDefHomeePagee.enter_a_product_name_Phone()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5929804400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on search Box",
+            "match": {
+              "location": "StepDefHomeePagee.click_on_search_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5521473500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Search for Samsung and Click",
+            "match": {
+              "location": "StepDefHomeePagee.search_for_Samsung_and_Click()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 538470700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify Samsung Galaxy S10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefHomeePagee.verify_Samsung_Galaxy_S(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SearchCABT"
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality of Amazon",
+    "description": "",
+    "id": "search-functionality-of-amazon",
+    "keyword": "Feature",
+    "uri": "HomeePage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify user can signin with valid credentials successfully",
+        "description": "",
+        "id": "signin-with-valid-credentials;verify-user-can-signin-with-valid-credentials-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6643942200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefHomeePagee.open_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2340884700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on signin button",
+            "match": {
+              "location": "StepDefinLoginnPagee.click_on_signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3004565500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter username and password and click on signin",
+            "match": {
+              "location": "StepDefinLoginnPagee.user_enter_username_and_password_and_click_on_signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5709667300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify user can signin and in his own profile page",
+            "match": {
+              "location": "StepDefinLoginnPagee.verify_user_can_signin_and_in_his_own_profile_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Signin with valid credentials",
+    "description": "",
+    "id": "signin-with-valid-credentials",
+    "keyword": "Feature",
+    "uri": "LoginnPagee.feature"
+  }
+]
